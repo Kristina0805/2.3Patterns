@@ -62,7 +62,7 @@ public class DeliveryTest {
         $("[data-test-id='agreement']").click();
         $(byText("Запланировать")).click();
 
-        $("[data-test-id='phone'] .input__sub").shouldHave(exactText("Поле обязательно для заполнения"));
+        $(byText("Поле обязательно для заполнения"));
 
     }
 
